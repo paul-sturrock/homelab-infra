@@ -10,6 +10,14 @@ Infrastructure-as-Code for my personal home lab environment — built using **Te
 
 ---
 
+## 🔧 Infrastructure
+
+This homelab runs on a pair of dedicated servers using Proxmox VE as the base hypervisor, hosting Kubernetes (K3s) nodes as virtual machines.
+
+More about the physical setup in [docs/hardware/README.md](docs/hardware/README.md)
+
+---
+
 ## 🧰 Tools & Technologies
 
 - 🖥️ **Proxmox VE** – Bare-metal hypervisor for VM orchestration
