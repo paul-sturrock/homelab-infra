@@ -44,6 +44,7 @@ homelab-infra/
 │── projects             # Smaller home lab projects to gain further skills
 │   └── various side projects/
 ├── docs/                # Architecture diagrams and screenshots
+│   └── hardware/  
 ├── .env.example         # Environment variable samples
 └── README.md            # This file
 ```
