@@ -38,6 +38,8 @@ homelab-infra/
 ├── kubernetes/
 │   ├── apps/            # Self-hosted apps (Nginx Proxy Manager, longhorn, metallb, nginx, smokeping etc)
 │   └── argo/            # GitOps definitions
+│── projects             # Smaller home lab projects to gain further skills
+│   └── various side projects/
 ├── docs/                # Architecture diagrams and screenshots
 ├── .env.example         # Environment variable samples
 └── README.md            # This file
