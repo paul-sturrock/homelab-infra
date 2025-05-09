@@ -27,6 +27,7 @@ More about the physical setup in [docs/hardware/README.md](docs/hardware/README.
 - ☸️ **K3s** – Lightweight Kubernetes for edge/home lab clusters
 - 🚀 **Argo CD** – GitOps deployment and continuous delivery
 - 💾 **Longhorn** – Distributed block storage for Kubernetes
+- 🔍 **Monitoring** - Metric and log monitoring
 
 ---
 
@@ -37,6 +38,7 @@ homelab-infra/
 ├── ansible/             # Server provisioning and role automation
 ├── kubernetes/
 │   ├── apps/            # Self-hosted apps (Nginx Proxy Manager, longhorn, metallb, nginx, smokeping etc)
+│   ├── monitoring/      # ELK stack with filebeat and Prometheus/Grafana
 │   └── argo/            # GitOps definitions
 │── projects             # Smaller home lab projects to gain further skills
 │   └── various side projects/
@@ -74,7 +76,7 @@ flowchart TD
 - [ ] 🔄 Integrate GitHub Actions for CI (linting Terraform, Ansible, K8s)
 - [ ] 🧪 Add automated tests for Terraform plans and manifest validation
 - [ ] 🌐 Add private mesh VPN (Tailscale or WireGuard) for secure remote access
-- [ ] 📈 Deploy observability stack (Prometheus, Grafana, Loki)
+- [X] 📈 Deploy observability stack (Prometheus, Grafana, ELK stack)
 - [ ] 🔐 Integrate secrets management (SOPS + Age, or SealedSecrets)
 - [ ] 📦 Package apps as Helm charts and track via Argo CD
 
