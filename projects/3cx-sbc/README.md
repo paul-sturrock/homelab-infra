@@ -21,3 +21,9 @@ flowchart TD
   ATA --> SBC(SBC VM)
   SBC --> 3CX[3CX Cloud PBX]
   HomeAssistant(Home Assistant) -->|Webhooks/SIP| ATA
+```
+
+## 🛣️ Planned Features
+	•	💻 Migrate from cloud-hosted 3CX to a fully self-hosted 3CX PBX instance
+	•	🧠 Deepen Home Assistant integration (e.g. SIP-based triggers, call events)
+	•	📈 Monitor PBX VM with Prometheus node exporter + Grafana
