@@ -25,7 +25,7 @@ This homelab runs on two physical servers using **Proxmox VE** for virtualizatio
 ## 🌐 Networking
 
 - **LAN Subnet**: `192.168.1.0/24`
-- **MetalLB Range**: `192.168.1.180 - 192.168.1.190`
+- **MetalLB Range**: `192.168.1.170 - 192.168.1.190`
 
 ---
 
