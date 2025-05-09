@@ -67,6 +67,10 @@ flowchart TD
   C --> F[Metallb]
   C --> G[Nginx]
   C --> H[Smokeping]
+  C --> I[Monitoring]
+  I --> J[ELK Stack]
+  I --> K[Prometheus/Grafana]
+
 ```
 
 ---
