@@ -1,6 +1,6 @@
 # 🏡 homelab-infra
 
-Infrastructure-as-Code for my personal home lab environment — built using **Terraform**, **Ansible**, **Kubernetes (K3s)**, and managed with **Argo CD** via GitOps. This project automates VM provisioning, system setup, and application deployment on a self-hosted stack.
+Infrastructure-as-Code for my personal home lab environment — built using **Terraform**, **Ansible**, **Kubernetes (K3s)**, and managed with **Argo CD** via GitOps. This project is to document skills and technologies learned and to share example code used on a private repo to provision and manage my homelab.
 
 ![MIT License](https://img.shields.io/github/license/paul-sturrock/homelab-infra)
 ![Last Commit](https://img.shields.io/github/last-commit/paul-sturrock/homelab-infra)
