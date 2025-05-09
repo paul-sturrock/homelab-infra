@@ -7,7 +7,7 @@ Infrastructure-as-Code for my personal home lab environment — built using **Te
 ![GitOps Powered](https://img.shields.io/badge/GitOps-ArgoCD-blue?logo=argo)
 ![GitHub repo size](https://img.shields.io/github/repo-size/paul-sturrock/homelab-infra)
 ![WIP](https://img.shields.io/badge/status-work_in_progress-yellow)
-[![Latest Release](https://img.shields.io/github/v/release/paul-sturrock/homelab-infra)](https://github.com/paul-sturrock/homelab-infra/releases)
+[![GitHub release (pre-release)](https://img.shields.io/github/v/release/paul-sturrock/homelab-infra?include_prereleases)](https://github.com/paul-sturrock/homelab-infra/releases)
 ![GitHub stars](https://img.shields.io/github/stars/paul-sturrock/homelab-infra?style=social)
 
 ---
