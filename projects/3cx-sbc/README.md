@@ -24,6 +24,6 @@ flowchart TD
 ```
 
 ## 🛣️ Planned Features
-	•	💻 Migrate from cloud-hosted 3CX to a fully self-hosted 3CX PBX instance
-	•	🧠 Deepen Home Assistant integration (e.g. SIP-based triggers, call events)
-	•	📈 Monitor PBX VM with Prometheus node exporter + Grafana
+- 💻 Migrate from cloud-hosted 3CX to a fully self-hosted 3CX PBX instance
+- 🧠 Deepen Home Assistant integration (e.g. SIP-based triggers, call events)
+- 📈 Monitor PBX VM with Prometheus node exporter + Grafana
