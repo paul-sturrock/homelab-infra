@@ -1,4 +1,4 @@
-# 📦 Longhorn (Helm Chart Deployment)
+# 📦 Longhorn 
 
 This directory contains the **Argo CD Application manifest** for deploying [Longhorn](https://longhorn.io/) to the Kubernetes cluster as a distributed persistent storage backend.
 
@@ -10,7 +10,7 @@ Longhorn is deployed via **GitOps with Argo CD**, making it fully declarative an
 
 | Feature          | Value                       |
 |------------------|-----------------------------|
-| **Method**       | Helm chart via Argo CD      |
+| **Method**       |  Via Argo CD      |
 | **Chart Source** | `https://charts.longhorn.io` |
 | **Namespace**    | `longhorn-system`           |
 | **StorageClass** | `longhorn` (set as default) |
