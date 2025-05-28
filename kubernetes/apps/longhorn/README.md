@@ -23,6 +23,8 @@ Longhorn is deployed via **GitOps with Argo CD**, making it fully declarative an
 ```text
 longhorn/
 ├── longhorn-app.yaml # Argo CD Application manifest
+├── deployment.yaml # Deployment file
+├── storageclassyaml # Storage Class file
 ├── README.md         # This file
 ```
 
